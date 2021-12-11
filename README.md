@@ -22,6 +22,6 @@ export default sslRedirect({});
 
 - `status`: The status code to redirect with.  defaults to `301`
 
-## Notes:
+## Credits
 
-[paulomcnally/node-heroku-ssl-redirect](https://github.com/paulomcnally/node-heroku-ssl-redirect) was referenced in the creation of this library.
+[paulomcnally/node-heroku-ssl-redirect](https://github.com/paulomcnally/node-heroku-ssl-redirect) was referenced heavily in the creation of this library.
