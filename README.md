@@ -20,7 +20,7 @@ export default sslRedirect({});
 
 - `environments`: List of `NODE_ENV` to run this middleware for.  Defaults `['production']`
 
-- `status`: The status code to redirect with.  defaults to `302`
+- `status`: The status code to redirect with.  defaults to `301`
 
 ## Notes:
 

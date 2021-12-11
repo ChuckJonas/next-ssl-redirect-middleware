@@ -9,7 +9,7 @@ type Params = {
 
 const middleware = ({
     environments = ["production"],
-    status = 302
+    status = 301
 }: Params) => (req: NextRequest, ev: NextFetchEvent) => {
     const currentEnv = process.env.NODE_ENV as Environment;
 
