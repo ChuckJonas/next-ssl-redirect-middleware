@@ -1,0 +1,32 @@
+{
+  "name": "next-ssl-redirect-middleware",
+  "version": "0.1.0",
+  "description": "Nextjs Middleware to redirect http to https",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tsc",
+    "watch": "npx tsc --watch",
+    "prepublish": "npx tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChuckJonas/next-ssl-redirect-middleware.git"
+  },
+  "keywords": [
+    "nextjs"
+  ],
+  "author": "Charlie Jonas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ChuckJonas/next-ssl-redirect-middleware/issues"
+  },
+  "homepage": "https://github.com/ChuckJonas/next-ssl-redirect-middleware#readme",
+  "devDependencies": {
+    "@types/node": "^16.11.12",
+    "next": ">=12.x",
+    "typescript": "^4.5.3"
+  },
+  "dependencies": {}
+}
