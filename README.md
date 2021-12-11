@@ -1,6 +1,6 @@
 # nextjs-ssl-redirect-middlewear
 
-> Nextjs Middleware to redirect http to https
+[Nextjs Middleware](https://nextjs.org/docs/middleware) to redirect `http` to `https`.  This is helpful if you are hosting your site on a service where this redirect doesn't happen automatically (IE heroku).
 
 ## Install 
 

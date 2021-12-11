@@ -1,6 +1,6 @@
 {
   "name": "next-ssl-redirect-middleware",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Nextjs Middleware to redirect http to https",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -15,7 +15,10 @@
     "url": "git+https://github.com/ChuckJonas/next-ssl-redirect-middleware.git"
   },
   "keywords": [
-    "nextjs"
+    "nextjs",
+    "ssl",
+    "redirect",
+    "heroku"
   ],
   "author": "Charlie Jonas",
   "license": "MIT",
