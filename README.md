@@ -8,7 +8,7 @@
 
 ## Usage
 
-Create a file `pages/_middleware.ts` (or `.js`) with the following:
+Create a file `middleware.ts` (or `.js`) with the following:
 
 ```typescript
 import sslRedirect from 'next-ssl-redirect-middleware';
