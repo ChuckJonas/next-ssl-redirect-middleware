@@ -13,7 +13,7 @@ const middleware = ({
 }: Params) => (req: NextRequest, ev: NextFetchEvent) => {
     const currentEnv = process.env.NODE_ENV as Environment;
 
-    if (environments.includes(currentEnv) && req.headers.get("x-forwarded-proto") !== "https") {
+    if (environments.includes(currentEnv) && !req.headers?.get("x-forwarded-proto")?.includes("https") {
         const hostname = req.headers.get('host') || req.nextUrl.hostname;
         return NextResponse.redirect(`https://${hostname}${req.nextUrl.pathname}`, status);
     }
